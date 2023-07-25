@@ -1,0 +1,17 @@
+const APIKey = 5ee52e24f59d3e4cd13d823463b1d752
+
+fontawesome icons = <script src="https://kit.fontawesome.com/20634282f8.js" crossorigin="anonymous"></script>
+
+
+
+07.24.23
+
+Researched how to implement a simple API, such as OpenWeather API. link for reference: https://openweathermap.org/
+
+Created index & styles documents for the project.
+
+07.25.23
+
+Began developing code.
+
+Played with fontawesome icons, learned how to implement them using html. They are also free wtf
