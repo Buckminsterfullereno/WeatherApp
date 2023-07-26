@@ -1,27 +1,3 @@
-const APIKey = 5ee52e24f59d3e4cd13d823463b1d752
-
-fontawesome icons = <script src="https://kit.fontawesome.com/20634282f8.js" crossorigin="anonymous"></script>
-
-API url:
-
-https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=${APIKey}
-
-07.24.23
-
-Researched how to implement a simple API, such as OpenWeather API. link for reference: https://openweathermap.org/
-
-Created index & styles documents for the project.
-
-07.25.23
-
-Began developing code.
-
-Played with fontawesome icons, learned how to implement them using html. They are also free wtf.
-
-
-https://api.openweathermap.org/data/2.5/weather?q=NewYork&units=imperial&appid=7a9cc2a6233f9d78afab2cab26458473
-
-
 bug list:
 
 1.on index.js, line 31 had a space between the dot and temperature.
