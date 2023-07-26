@@ -150,7 +150,7 @@ body {
 	width: 100%;
 	text-align: center;
 	margin-top: 50px;
-	scale: 0;
+	transform: scale (0);
 	opacity: 0;
 	display: none;
 }
@@ -172,9 +172,10 @@ body {
 	opacity: 0;
 }
 
-.fade-in {
+.fadeIn {
 	animation: 0.5s fadeIn forwards;
 	animation-delay: 0.5s;
+	animation-fill-mode: forwards;
 }
 
 @keyframes fadeIn {
@@ -183,8 +184,3 @@ body {
 		opacity: 1;
 	}
 }
-/* .weather-box .description span {
-	position: absolute;
-	margin-left: 4px;
-	font-size: 1.5rem;
-} */
